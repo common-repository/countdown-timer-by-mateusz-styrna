@@ -1,0 +1,28 @@
+#timeLeft__progress {
+	width: 100%;
+	height: 25px;
+	position: fixed;
+	z-index: 99998;
+}
+
+#timeLeft {
+	display: block;
+	width: 100%;
+	position: fixed;
+	text-align: center;
+	z-index: 99999;
+}
+
+.timeLeft-bottom {
+	bottom: 0;
+}
+
+.timeLeft-top {
+	top: 0;
+}
+
+@media all and (max-width: 880px) {
+	#timeLeft, #timeLeft__progress {
+		display: none !important;
+	}
+}
